@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SourceSansPro:size=10" };
 static const char dmenufont[]       = "SourceSansPro:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray1[]       = "#282828"; /* #222222 background color */
+static const char col_gray2[]       = "#282828"; /* #444444 inactive window border color */
+static const char col_gray3[]       = "#bbbbbb"; /* #bbbbbb font color */
+static const char col_gray4[]       = "#282828"; /* #eeeeee current tag and current window color */
+static const char col_cyan[]        = "#458588"; /* #005577 second bar color and active window border color */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
