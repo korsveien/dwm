@@ -13,7 +13,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SourceSansPro-Bold:size=10" };
 static const char dmenufont[]       = "SourceSansPro-Bold:size=10";
 static const char col_gray1[]       = "#282828"; /* #222222 background color */
-static const char col_gray2[]       = "#282828"; /* #444444 inactive window border color */
+static const char col_gray2[]       = "#3c3836"; /* #444444 inactive window border color */
 static const char col_gray3[]       = "#bbbbbb"; /* #bbbbbb font color */
 static const char col_gray4[]       = "#282828"; /* #eeeeee current tag and current window color */
 static const char col_cyan[]        = "#458588"; /* #005577 second bar color and active window border color */
